@@ -1,15 +1,23 @@
+[//]: <> (Copyright Eiliya Abedianamiri - https://github.com/iliaamiri)
+
 # To setup the databases, follow each steps for both setups: #
 
 
 ## Setup for MySQL (using the GUI of phpMyAdmin): ##
 1. Create two MySQL databases with a prefix name, (for example: witcher_config and withcer_main, the prefix name in here is "witcher").
+
+
 ![Database.php](images/createdatabases.png)
 
 2. Import both .sql files, knowing that test.sql is the config database and test_main is the main database. (When uploading finished, click the "Go" button on the bottom right).
+
+
 ![Database.php](images/importingdbs.png)
 
 3. Navigate through the test.sql > main_database table and update the 'db_name' column from 'test_main' to the name of the other database (main database - test_main.sql). 
 NOTE: If your username and password for the main database is different, in the same table, update the "db_user" and "db_pass" from default to whatever username or password your main database has.
+
+
 ![Database.php](images/mysqlsetup.png)
 
 4. And you are done!
