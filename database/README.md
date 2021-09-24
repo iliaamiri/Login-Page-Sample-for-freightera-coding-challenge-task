@@ -1,3 +1,5 @@
+[//]: <> (Copyright Eiliya Abedianamiri - https://github.com/iliaamiri)
+
 # To setup the databases, follow each steps for both setups: #
 
 
